@@ -1,20 +1,27 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <!-- google font -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
-        <!-- stylesheet -->
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="hero">
-              <h1 class="title">Gadson's Diner</h1>
-              <h3 class="sub-title">The best burgers and pizzas in town.</h3>
-        </div>
-        <div class="menu-items-list" id="menu-items-list">
-            <!-- menu items will be rendered here -->
-            <!-- <div class="item">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="hero">
+      <h1 class="title">Gadson's Diner</h1>
+      <h3 class="sub-title">The best burgers and pizzas in town.</h3>
+    </div>
+    <div class="menu-items-list" id="menu-items-list">
+      <!-- menu items will be rendered here -->
+      <!-- <div class="item">
                 <img src="images/pizza.png" alt="pizza slice">
                 <div>
                     <h2>Pizza</h2>
@@ -23,52 +30,56 @@
                 </div>
                 <span class="item-add">+</span>
             </div> -->
-        </div>
-        <div class="order-box" id="order-box">
-            <h1 class="order-box-title">Your Order</h1>
-            <div class="order-box-item-list" id="order-box-item-list">
-                <!-- ordered items will go here -->
-                <!-- <div class="order-box-item">
+    </div>
+    <div class="order-box" id="order-box">
+      <h1 class="order-box-title">Your Order</h1>
+      <div class="order-box-item-list" id="order-box-item-list">
+        <!-- ordered items will go here -->
+        <!-- <div class="order-box-item">
                     <h1>Pizza</h1>
                     <p>remove</p>
                     <h1 class="order-box-item-price">$14</h1>
                 </div> -->
-            </div>
-            <div class="order-box-total">
-                <h1>Total price: </h1>
-                <h1 class="order-box-total-price" id="order-box-total-price">
-                    <!-- total price will be rendered here -->
-                </h1>
-            </div>
-            <button id="btn">Complete order</button>
-        </div>
-        <form class="modal" id="modal" data-backdrop="true">
-            <h1>Enter card details</h1>
-            <input 
-                data-backdrop="true"
-                type="text" 
-                placeholder="Enter your name" 
-                id="name" 
-                name="name" 
-                required
-                data-backdrop="true">
-            <input 
-                data-backdrop="true"
-                type="text" 
-                placeholder="Enter card number" 
-                name="card" required>
-            <input 
-                data-backdrop="true"
-                type="text" 
-                placeholder="Enter cvv" 
-                name="cvv" id="cvv" 
-                required>
-            <button type="submit">Pay</button>
-        </form >
-        <div class="order-completed" id="order-completed">
-            <!-- <p>Thanks, James! Your order is on the way!</p> -->
-        </div>
-	<script src="index.js" type="module"></script>
-    </body>
+      </div>
+      <div class="order-box-total">
+        <h1>Total price:</h1>
+        <h1 class="order-box-total-price" id="order-box-total-price">
+          <!-- total price will be rendered here -->
+        </h1>
+      </div>
+      <button id="btn">Complete order</button>
+    </div>
+    <form class="modal" id="modal" data-backdrop="true">
+      <h1>Enter card details</h1>
+      <input
+        data-backdrop="true"
+        type="text"
+        placeholder="Enter your name"
+        id="name"
+        name="name"
+        required
+        data-backdrop="true"
+      />
+      <input
+        data-backdrop="true"
+        type="text"
+        placeholder="Enter card number"
+        name="card"
+        required
+      />
+      <input
+        data-backdrop="true"
+        type="text"
+        placeholder="Enter cvv"
+        name="cvv"
+        id="cvv"
+        required
+      />
+      <button type="submit" data-backdrop="true">Pay</button>
+    </form>
+    <div class="order-completed" id="order-completed">
+      <!-- <p>Thanks, James! Your order is on the way!</p> -->
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
 </html>
-
