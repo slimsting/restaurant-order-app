@@ -34,6 +34,7 @@ document.addEventListener("click", function (e) {
 });
 
 function handleAddClick(value) {
+  document.getElementById("order-completed").style.display = "none";
   const addedItemObj = menuArray.filter(function (item) {
     return item.id === Number(value);
   })[0]; // store the clicked item object using the id value retrived from the + button

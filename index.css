@@ -99,6 +99,7 @@ input {
 
 .item-add:hover {
   background-color: #16db99;
+  cursor: pointer;
 }
 
 .ingredients {
@@ -186,6 +187,7 @@ input {
 }
 .remove:hover {
   color: red;
+  cursor: pointer;
 }
 .order-completed {
   display: none;
