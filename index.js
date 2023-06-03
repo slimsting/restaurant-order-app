@@ -18,6 +18,7 @@ cardDetailsForm.addEventListener("submit", function (e) {
   document.getElementById("order-completed").style.display = "flex";
   document.getElementById("modal").style.display = "none";
   document.getElementById("order-box").style.display = "none";
+  const orderObjectsArray = [];
 });
 
 // event listener for all clicks on the site
